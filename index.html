@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black text-white">
+    <nav class="fixed top-0 left-0 w-full z-50 bg-transparent">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <a href="#" class="text-xl font-bold text-gold-500 hover:text-cyan-300 transition-colors duration-300">CyberPunk</a>
+          </div>
+          <div class="md:block">
+            <div class="ml-10 flex items-baseline space-x-4">
+              <a href="#" class="text-white hover:bg-yellow-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Home</a>
+              <a href="#" class="text-white hover:bg-yellow-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">About</a>
+              <a href="#" class="text-white hover:bg-yellow-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Projects</a>
+              <a href="#" class="text-white hover:bg-yellow-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="main w-full">
+      <div class="w-full h-screen overflow-hidden relative">
+        <canvas id="canvas" class="absolute inset-0 w-full h-full"></canvas>  
+        <!-- <img class="absolute w-full h-full object-cover left-0 top-0 mix-blend-screen filter-saturate-150 contrast-250 hue-rotate-[200deg] z-0" src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt=""> -->
+      </div>
+    </div>
+
+
+    <!-- <div>
+      <img src="./public/Screenshot 2024-10-22 131357.png" alt="" class="w-full h-full object-cover">
+    </div> -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
